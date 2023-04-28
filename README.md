@@ -16,16 +16,11 @@ $ g++ -o prog dartboard_montecarlo.cpp -lm -fopenmp
 
 The `-lm` flag links the `math` library and the `-fopenmp` flag links the OpenMP library.
 
-To run the program with default settings, run the following command:
-
-```
-$ ./prog
-```
 
 To run the program with custom settings, you can set the constants in the program before compiling, or you can pass them as command line arguments:
 
 ```
-$ ./programname numtrials numthreads
+$ ./prog numtrials numthreads
 ```
 
 where `numtrials` is the number of trials in the Monte Carlo simulation and `numthreads` is the number of threads to use in parallelization.
