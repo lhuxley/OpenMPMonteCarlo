@@ -31,16 +31,7 @@ The program outputs the number of darts that landed inside each of the three hol
 
 If the `CSV` flag is defined in the program, the program outputs a comma-separated value (CSV) file with the following columns:
 
-- Number of trials
 - Number of threads
-- Execution time (seconds)
-- Number of darts landed inside the first hole
-- Number of darts landed inside the second hole
-- Number of darts landed inside the third hole
-- Estimated area of the first hole
-- Estimated area of the second hole
-- Estimated area of the third hole
-
-## License
-
-This program is released under the [MIT License](https://opensource.org/licenses/MIT).
+- Number of trials
+- Probability 
+- Execution speed (MegaMuliplies/sec)
